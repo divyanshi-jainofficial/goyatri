@@ -179,7 +179,7 @@ placeholder="Search inquiries..."
 
 <script>
 
-fetch("http://localhost:5000/api/inquiries")
+fetch("https://goyatri.onrender.com/api/inquiries")
 
 .then(res => res.json())
 
@@ -258,7 +258,7 @@ async function deleteInquiry(id){
     try{
 
         await fetch(
-            `http://localhost:5000/api/inquiries/${id}`,
+            `https://goyatri.onrender.com/api/inquiries/${id}`,
             {
                 method:"DELETE"
             }

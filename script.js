@@ -137,7 +137,7 @@ document
     try {
 
         const response = await fetch(
-            "http://localhost:5000/api/inquiry",
+            "https://goyatri.onrender.com/api/inquiry",
             {
                 method: "POST",
                 headers: {
